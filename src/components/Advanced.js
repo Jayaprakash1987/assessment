@@ -48,12 +48,9 @@ const Advanced = () => {
   return (
     <div>
       <h3>Advanced</h3>
-      <label style={{ display: "none" }} htmlFor="inputString">
-        Input string
-      </label>
       <input
         type="text"
-        id="inputString"
+        data-testid="inputString"
         value={inputString}
         onChange={handleInputChange}
       />
